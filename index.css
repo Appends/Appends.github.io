@@ -14,14 +14,14 @@
 
 body {
 	font-family: calibri;
-	background-color: #FC7E86;
+	background-color: #fafafa;
 	font-size: 18px;
 }
 
 container {
   position:fixed;
     overflow:auto;
-    margin-top:87px;
+    margin: 0 auto;
     height:480px;
     width:700px;
     border-left:1px solid  #b4d9d6;
