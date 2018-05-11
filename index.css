@@ -24,7 +24,7 @@ container {
     height:480px;
     width:700px;
     align: center;
-    border-top: 1x solid #b4d9d6;
+    border-top: 1px solid #b4d9d6;
     border-left:1px solid  #b4d9d6;
     border-right:1px solid  #b4d9d6;
     border-bottom:1px solid #b4d9d6;
