@@ -14,7 +14,7 @@
 
 body {
 	font-family: calibri;
-	background-color: #fafafa;
+	background-color: #FC7E86;
 	font-size: 18px;
 }
 
@@ -24,6 +24,7 @@ container {
     margin: auto;
     height:480px;
     width:700px;
+    border-top: 1x solid #b4d9d6;
     border-left:1px solid  #b4d9d6;
     border-right:1px solid  #b4d9d6;
     border-bottom:1px solid #b4d9d6;
