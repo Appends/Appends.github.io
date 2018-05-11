@@ -21,7 +21,7 @@ body {
 container {
   position:fixed;
     overflow:auto;
-    margin: 0 auto;
+    margin: auto;
     height:480px;
     width:700px;
     border-left:1px solid  #b4d9d6;
