@@ -2,7 +2,10 @@
 <!doctype HTML>
 <head>
 <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://bootswatch.com/4/lux/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="index.css">
+ <script src="java.js">	</script>
 	<title>MY PORTFOLIO</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,17 +13,54 @@
 	</head>
 	<body>
 	<div id="title">NANCY WANG</div>
-		<div class="tab">
-	  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-	  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-	  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-	</div>
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<body>
+		<!-- NAV BAR !-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<!-- Tab content -->
-	<div id="London" class="tabcontent">
-	  <h3>FUCk</h3>
-	  <p>London is the capital city of England.</p>
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" a href="/aboutme">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+	  <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
+	  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
 	</div>
+	<div id="Home" class="tabcontent">
+	  <div id="subtitle">HOME</div>
+	  <p>
+			<img src="NancyWang.jpg" class="center" style="width:500px;height:350px;">
+		<blockquote>	My name is <b>Nancy Wang</b> and I'm an avid video game player and designer.
+</blockquote>
+</p>
+	</div>
+</div>
 
 	<div id="Paris" class="tabcontent">
 	  <h3>Paris</h3>
@@ -31,9 +71,8 @@
 	  <h3>Tokyo</h3>
 	  <p>Tokyo is the capital of Japan.</p>
 	</div>
-
-		</body>
-		</html>
-
+	<script>
+	document.getElementById("defaultOpen").click();
+	</script>
 	</body>
 	</html>
