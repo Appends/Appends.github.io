@@ -1,8 +1,7 @@
 
 <!doctype HTML>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Asap|Raleway:700|Roboto+Condensed:700|Secular+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
  <script src="java.js">	</script>
 	<title>MY PORTFOLIO</title>
@@ -12,37 +11,57 @@
 	</head>
 
 	<body>
+<!-- CONTACT INFORMATION !-->
+		<a href="/">
+ 			<img src="https://i.imgur.com/hF5vaSX.png" height=100 style="position:fixed;bottom:31%;right:23%;z-index:999;border-radius: 50px; box-shadow: 3px 2px 0px #ffbba3, 6px 6px 0px #556061;"/>
+		</a>
+
+		<a href="/">
+ 			<img src="facebook.png" height=100 style="position:fixed;bottom:45%;right:23%;z-index:999;border-radius: 50px; box-shadow: 3px 2px 0px #ffbba3, 6px 6px 0px #556061;"/>
+		</a>
+
+		<a href="/">
+ 			<img src="github.png" height=100 style="position:fixed;bottom:59%;right:23%;z-index:999;border-radius: 50px; box-shadow: 3px 2px 0px #ffbba3, 6px 6px 0px #556061;"/>
+		</a>
+
 	<div id="title">NANCY WANG</div>
 	<!DOCTYPE html>
 	<html>
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<a href="/">
-	<body>		<!-- NAV BAR !-->
+	<!-- NAV BAR !-->
 	<div class="tab">
-		<button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
-	  <button class="tablinks" onclick="openTab(event, 'Paris')">Paris</button>
-	  <button class="tablinks" onclick="openTab(event, 'Tokyo')">Tokyo</button>
+		<button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button> |
+	  <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button> |
+	  <button class="tablinks" onclick="openTab(event, 'Design')">Design</button> |
+		<button class="tablinks" onclick="openTab(event, 'Resume')">Information</button>
 	</div>
+<!-- TABS !-->
 	<div id="Home" class="tabcontent">
 	  <div id="subtitle">HOME</div>
 	  <p>
-			<img src="NancyWang.jpg" class="center" style="width:500px;height:350px;">
+			<img src="NancyWang.jpg" class="center" style="width:500px;height:350px;border:10px outset #ffbba3;">
 		<blockquote>	My name is <b>Nancy Wang</b> and I'm an avid video game player and designer.
 </blockquote>
 </p>
 	</div>
 </div>
-
-	<div id="Paris" class="tabcontent">
-	  <h3>Paris</h3>
-	  <p>Paris is the capital of France.</p>
+<!-- CONTENT !-->
+	<div id="Projects" class="tabcontent">
+	  <h3>Projects</h3>
+	  <p>Projects is the capital of France.</p>
 	</div>
 
-	<div id="Tokyo" class="tabcontent">
-	  <h3>Tokyo</h3>
-	  <p>Tokyo is the capital of Japan.</p>
+	<div id="Design" class="tabcontent">
+	  <h3>Design</h3>
+	  <p>Design is the capital of Japan.</p>
 	</div>
+
+	<div id="Resume" class="tabcontent">
+		<h3>Projects</h3>
+		<p>Projects is the capital of France.</p>
+	</div>
+
 	<script>
 	document.getElementById("defaultOpen").click();
 	</script>
