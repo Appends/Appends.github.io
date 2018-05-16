@@ -1,12 +1,13 @@
 #title {
   position: fixed;
-  left:30%;
+  left:20%;
   top:12%;
-  color: #91c9c4;
+  color: #807771;
   font-family: 'Secular One', sans-serif;
   font-size:69px;
   height:480px;
   width:700px;
+  text-shadow:2px 2px 0px #d4a492;
 }
 #subtitle {
   font-family: 'Roboto Condensed', sans-serif;
@@ -14,8 +15,9 @@
 }
 body {
 	font-family: calibri;
-	background-color: #fafafa;
+	background-color: #ffbba3;
 	font-size: 18px;
+  font-color: #fff8f5;
   width: 600px;
   height: 500px;
 }
@@ -31,20 +33,19 @@ body {
 .tab {
     position: fixed;
     top: 140px;
-    right: 700px;
+    right: 730px;
     overflow: hidden;
-    background-color: #dae8e7;
 }
 
 /* Style the buttons inside the tab */
 .tab {
     overflow: hidden;
-    border: 5px solid #b4d9d6;
+    border: 5px solid #aa8e82;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-    background-color: #f0f9f4;
+    background-color: #ffc8b5;
     float: left;
     border: none;
     outline: #b4d9d6;
@@ -56,12 +57,12 @@ body {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #5fafa9;
+    background-color: #d4a492;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #b4d9d6;
+    background-color: #ffbba3;
 }
 
 /* Style the tab content */
@@ -74,7 +75,7 @@ body {
     overflow:auto;
     height:600px;
     width:900px;
-    border:3px double #b4d9d6;
-    box-shadow:7px 7px 0px #b4d9d6;
-    background-color:#f0f9f4;
+    border:3px double #d4a492;
+    box-shadow:7px 7px 0px #aa8e82;
+    background-color:#d4a492;
 }
